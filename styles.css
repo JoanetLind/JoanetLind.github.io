@@ -1,0 +1,34 @@
+body {
+    background-color: DarkSeaGreen;
+    font-family: sans-serif;
+    padding: 30px;
+  }
+
+.menu {
+    width: 80%;
+    background-color: Ivory;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    max-width: 1000px;
+  }
+
+hr {
+    height: 2px;
+    background-color: DarkOliveGreen;
+    border-color: DarkOliveGreen;
+  }
+
+  /* look at aside element later because i dunno how to do this */
+
+  h1 {
+    text-align: center;
+  }
+
+  .active {
+    color: DarkOliveGreen;
+  }
+
+  .link {
+    color: black;
+  }

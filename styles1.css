@@ -1,3 +1,5 @@
+/*make the header and footer stick so that the backgruond doesnt have a huge gap at the bottom*/
+
 body {
     background-color: DarkOliveGreen; 
     font-family: sans-serif;
@@ -34,4 +36,17 @@ hr {
   }
 
 
+  /*dashboard*/
+
+  .blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 8% 0;
+  }
+
+  .card {
+    padding: 2 rem 2rem 2rem 2rem;
+    max-width: 300px
+  }
 

@@ -40,10 +40,12 @@ nav {
   display: flex;
 }
 
-header {
-  display: block;
-  background-color: black;
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 
 /*dashboard*/
 

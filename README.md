@@ -14,3 +14,5 @@
 - dashboard page goes out of frame when minimized fix that for all sizes of screen
 
 always add commit and push t0 github
+
+

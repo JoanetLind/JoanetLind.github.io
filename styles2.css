@@ -7,13 +7,13 @@ body {
     padding: 30px;
   }
 
-.menu {
+  .menu {
     width: 80%;
     background-color: Ivory;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-    max-width: 1000px;
+    align: center;
   }
 
 hr {
@@ -44,10 +44,34 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: pink;
+  box-align: center;
+  margin: 20px;
 }
 
+.nav {
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: Ivory;
+}
 
 /*dashboard*/
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+
+table {; 
+  align: center;
+  margin: 20px;
+  background-color: ivory
+}
+
+/*blog*/
 
 .card {
   display: flex;

@@ -13,7 +13,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-    align: center;
+    box-align: center;
   }
 
 hr {
@@ -63,10 +63,7 @@ table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
   padding: 6px;
-}
-
-table {; 
-  align: center;
+  box-align: center;
   margin: 20px;
   background-color: ivory
 }

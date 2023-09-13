@@ -1,0 +1,194 @@
+/*make the header and footer stick so that the background doesnt have a huge gap at the bottom*/
+/*when hovering over links make them a different colour*/
+
+body {
+    background-color: #647c64; 
+    font-family: sans-serif;
+    padding: 10px;
+  }
+
+  .menu {
+    width: 80%;
+    background-color: Ivory;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-align: center;
+    height: 100%;
+  }
+
+  .main {
+    padding: 20px;
+    margin: 0px;
+  }
+
+  .name {
+    color: ivory;
+  }
+
+hr {
+    height: 1px;
+    background-color: #384538;
+    border-color: #384538;
+  }
+
+h1 {
+  text-align: center;
+}
+
+.active {
+  color: #384538;
+}
+
+.link {
+  color: black;
+}
+
+nav {
+  display: flex;
+}
+
+.navigation {
+  margin: 20px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #384538;
+  box-align: center;
+  position: sticky;
+}
+
+.nav {
+  float: left;
+  display: box;
+  padding: 8px;
+  background-color: ivory;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+aside {
+  width: 15%;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+  font-style: bold;
+  background-color: purple;
+  padding: 20px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: black;
+}
+
+/*faq*/
+
+.collapsible {
+  padding: 20px;
+  width: 80%;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 20px;
+  outline: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black; 
+}
+
+.collapsible:hover {
+  background-color: #555;
+}
+
+.answer {
+  padding: 0 20px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 76.5%;
+  border-radius: 10px;
+}
+
+/*dashboard*/
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 6px;
+  box-align: center;
+  margin: 20px;
+  background-color: ivory;
+}
+
+/*blog*/
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 8% 0;
+}
+
+.container {
+  width: 200px;
+  height: 300px;
+  max-width: 200px;
+  max-height: 300px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 10px;
+  position: relative;
+  margin: 5px;
+}
+
+.container:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.bloglink {
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+
+/*--------------------*/
+
+
+.animated-progress {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-progress span {
+  height: 100%;
+  display: block;
+  width: 0;
+  color: rgb(255, 251, 251);
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px;
+}
+
+.progress-blue span {
+  background-color: blue;
+}

@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My profile</title>
-    <link href="styles2.css" rel="stylesheet"/> 
-  </head>
 
-  <body>
-    <div class="menu">
-    
-      <header>
-        <nav class="navigation">
-          <h1>Joanet Lindhoud</h1>
-          <ul>
-            <li class="nav"><a class="link" href="index.html">Home</a></li>
-            <li class="nav"><a class="link" href="profile.html">Profile</a></li>
-            <li class="nav"><a class="active" href="dashboard.html">Dashboard</a></li>
-            <li class="nav"><a class="link" href="faq.html">FAQ</a></li>
-            <li class="nav"><a class="link" href="blog.html">Blog</a></li>
-          </ul>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My profile</title>
+  <link href="styles3.css" rel="stylesheet" />
+</head>
 
+<body>
+  <div class="menu">
+
+    <header>
+      <nav class="navigation">
+        <h1 class="name">Joanet Lindhoud</h1>
+        <ul>
+          <li class="nav"><a class="link" href="index.html">Home</a></li>
+          <li class="nav"><a class="link" href="profile.html">Profile</a></li>
+          <li class="nav"><a class="active" href="dashboard.html">Dashboard</a></li>
+          <li class="nav"><a class="link" href="faq.html">FAQ</a></li>
+          <li class="nav"><a class="link" href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside>
+      <li class="nav"><a class="link" href="blog.html">Blog</a></li>
+    </aside>
+
+    <section class="main">
       <table> <!--table goes out of frame when window gets smaller look at it-->
         <tr>
           <th>Quartile</th>
@@ -34,7 +39,7 @@
           <th>Exams</th>
           <th>Weighting Factor</th>
           <th>Grade</th>
-        </tr> 
+        </tr>
         <tr>
           <td rowspan="3">Quartile 1</td>
           <td>Program-& Career Orientation</td>
@@ -74,7 +79,7 @@
           <td>50%</td>
           <td>-</td>
         </tr>
-        <tr> 
+        <tr>
           <td rowspan="4">Quartile 3</td>
           <td rowspan="4">Framework project 1</td>
           <td rowspan="4">CU75080V1</td>
@@ -118,9 +123,21 @@
           <td>-</td>
         </tr>
       </table>
+    </section>
       <!--add progress bar to nsba-->
       <!--make sure credits add up and look for a way to make them seperate for exams so you can see how many credits you get when-->
 
-    </div>
-  </body>
+      <!--Start Animated Progress Bar-->
+      <div class="animated-progress progress-blue">
+        <span data-progress="45"></span>
+      </div>
+<!--End Animated Progress Bar-->
+
+<footer class="footer">
+  <p>footer</p>
+</footer>
+
+  </div>
+</body>
+
 </html>

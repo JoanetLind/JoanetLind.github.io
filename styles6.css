@@ -1,4 +1,3 @@
-/*make the header and footer stick so that the background doesnt have a huge gap at the bottom*/
 /*when hovering over links make them a different colour*/
 
 body {
@@ -17,6 +16,7 @@ body {
     padding: 20px;
     box-align: center;
     height: 100%;
+    min-height: 900px;
   }
 
   .main {
@@ -25,7 +25,7 @@ body {
   }
 
   .name {
-    color: ivory;
+    color: black;
   }
 
 hr {
@@ -46,6 +46,10 @@ h1 {
   color: black;
 }
 
+.link:hover {
+  color: #555;
+}
+
 nav {
   display: flex;
 }
@@ -54,54 +58,60 @@ nav {
   margin: 20px;
   padding: 10px;
   overflow: hidden;
-  background-color: #384538;
+  background-color: lightgray;
   box-align: center;
   position: sticky;
 }
 
 .nav {
-  float: left;
   display: box;
   padding: 8px;
-  background-color: ivory;
+  float: left;
+  flex-direction: row;
   list-style-type: none;
   font-weight: bold;
+  border: blue;
+  border-radius: 10px;
 }
 
 aside {
+  font-weight: bold;
+  list-style-type: none;
   width: 15%;
   margin-left: 20px;
   margin-right: 10px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   position: relative;
   float: left;
   font-style: bold;
-  background-color: purple;
+  background-color: lightgray;
   padding: 20px;
+  height: 90vh;
 }
 
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: pink;
-  color: black;
+footer {
+  height: 70px;
+  width: 150px;
+  margin-left: 20px; 
 }
+
 
 /*faq*/
 
 .collapsible {
-  padding: 20px;
-  width: 80%;
+  padding: 10px;
+  width: 60%;
   text-align: left;
   font-size: 15px;
-  margin-top: 20px;
   outline: none;
   border-width: 2px;
   border-style: solid;
   border-color: black; 
+  position: sticky;
+  margin-top: 12px;
+  margin-left: 20px;
+  overflow: hidden;
 }
 
 .collapsible:hover {
@@ -113,8 +123,9 @@ aside {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  width: 76.5%;
-  border-radius: 10px;
+  width: 56.5%;
+  position: sticky;
+  margin-left: 21.65%;
 }
 
 /*dashboard*/
@@ -163,7 +174,14 @@ table, th, td {
   border-radius: 20px;
   position: absolute;
   bottom: 10px;
+  color: black;
+  font-weight: bold;
 }
+
+.bloglink:hover {
+  color: #555;
+}
+
 
 /*--------------------*/
 
